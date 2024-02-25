@@ -1,0 +1,24 @@
+{
+  "scripts": {
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --mode development"
+  },
+  "name": "sound-reactive-web",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:20m61/sound-reactive-web.git",
+  "author": "20m61 <ifm0s1m0s1m0nn@hotmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "three": "^0.161.0"
+  },
+  "devDependencies": {
+    "@types/three": "^0.161.2",
+    "html-webpack-plugin": "^5.6.0",
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.3.3",
+    "webpack": "^5.90.3",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.0.2"
+  }
+}
