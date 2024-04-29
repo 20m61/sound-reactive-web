@@ -1,24 +1,24 @@
 {
-  "scripts": {
-    "build": "webpack --mode production",
-    "start": "webpack-dev-server --mode development"
-  },
   "name": "sound-reactive-web",
-  "version": "1.0.0",
-  "main": "index.js",
-  "repository": "git@github.com:20m61/sound-reactive-web.git",
-  "author": "20m61 <ifm0s1m0s1m0nn@hotmail.com>",
-  "license": "MIT",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
   "dependencies": {
-    "three": "^0.161.0"
+    "react": "^18",
+    "react-dom": "^18",
+    "next": "14.2.3"
   },
   "devDependencies": {
-    "@types/three": "^0.161.2",
-    "html-webpack-plugin": "^5.6.0",
-    "ts-loader": "^9.5.1",
-    "typescript": "^5.3.3",
-    "webpack": "^5.90.3",
-    "webpack-cli": "^5.1.4",
-    "webpack-dev-server": "^5.0.2"
+    "typescript": "^5",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.3"
   }
 }
